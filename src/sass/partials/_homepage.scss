@@ -1,0 +1,73 @@
+.homeHeader {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+    url(../../components/img/bgheader.jpg);
+  height: 100vh;
+  background-position: absolute;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  margin-top: -101px;
+}
+
+.HomeBtn {
+  display: inline-block;
+  width: 250px;
+  height: 40px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  text-decoration: none;
+  color: $font-color;
+  background: $primary-color;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-left: 0px;
+  &:hover {
+    background: $secondary-color;
+    border: none;
+  }
+}
+
+.headerText {
+  display: flex;
+  justify-content: center;
+  color: $font-color;
+  h3 {
+    font-size: 0px;
+  }
+}
+
+.headerSearch {
+  display: flex;
+  justify-content: center;
+  color: $font-color;
+}
+
+p.headerParagraph {
+  color: $font-color;
+  text-align: center;
+  padding-top: 17px;
+}
+
+.headerButton {
+  display: flex;
+  justify-content: center;
+}
+
+.headerLogo {
+  display: flex;
+  justify-content: center;
+  padding-top: 285px;
+}
+
+.rbt-input-main {
+  width: 250px;
+  height: 45px;
+  border: none;
+  border-radius: 0px;
+}

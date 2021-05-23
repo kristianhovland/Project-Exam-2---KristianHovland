@@ -1,0 +1,21 @@
+.NavBtn {
+  background-color: transparent;
+  border: 1px solid $font-color;
+  color: $font-color;
+  margin-top: 0;
+  &:hover {
+    background-color: $font-color;
+    color: $primary-color;
+  }
+}
+
+.list-group {
+  margin-bottom: 15px;
+}
+
+.list-group-item {
+  margin-right: 15px;
+  max-width: 350px;
+  width: 350px;
+  border: $secondary-color, solid 2px;
+}

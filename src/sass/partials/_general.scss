@@ -1,0 +1,29 @@
+body {
+  background-color: #011931;
+  font-family: $primary-font;
+  max-width: 100%;
+}
+
+.col {
+  color: $font-color;
+}
+
+form {
+  color: $font-color;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.fa {
+  padding: 10px 25px;
+  color: $secondary-color;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

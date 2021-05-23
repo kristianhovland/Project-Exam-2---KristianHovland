@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  color: $font-color;
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+
+h2 {
+  text-align: center;
+  color: $font-color;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+h3 {
+  color: $font-color;
+  text-align: center;
+  padding-top: 25px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $headings-font;
+  font-weight: 700;
+}
